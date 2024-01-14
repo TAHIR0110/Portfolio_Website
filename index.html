@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="okok.jpeg" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Syed Tahir Abbas Hasani</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">STAH</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Screenshot 2023-11-10 at 2.13.30 AM.png" alt="profile picture" class="circular-profile-pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Tahir Abbas</h1>
+        <p class="section__text__p2">Freshman at Vellore Institute of Technology</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="th.jpeg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/syed-tahir-abbas-hasani-60bb78287/'"
+          />
+          <img
+            src="thi.jpeg"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/TAHIR0110'"
+          />
+        </div>
+      </div>
+      <img
+      src="lo.jpeg"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#about'"
+    />
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="tahir.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="ko.jpeg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Python Programming</p>
+              <p>1+ years <br />Data Analysis and Machine Learning</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="th-1.jpeg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>High School Diploma-D.P.S R.K Puram<br />B.tech Computer Science and Engineering-Vellore Institute of Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am honored to be recognized as a national finalist in business planning by Delhi University(Miranda house and SSCBS), receiving a certificate of appreciation from the Government of Telangana (Open Data Telangana).
+                My achievements extend to being certified by leading companies such as JP Morgan, Google, Amazon, Walmart, hackerrank, codebasics and Infosys.<br>
+                 I served as a campus ambassador at IIT Delhi, IIT Patna, IIT Bhubaneswar, and the Government of India (MyGov).
+                  Additionally, I am an Internshala student partner and was a member of the Student Government at D.P.S R.K Puram.
+              In addition to my accolades, I had the opportunity to present my paper at a national-level event in Chennai and at international industry conference organized by XLRI Jamshedpur.
+               These experiences have deepened my understanding of my field and reinforced my passion for exploration and learning.<br>
+   You can read my recent reseach paper <a href="https://tahir0110.github.io/paper/">here</a>.
+               
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="lo.jpeg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience" class="experience-section">              
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="g.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Certificate of Appreciation</h3>
+                  <p>Government of Telangana</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="google.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Certificate of Achievement</h3>
+                  <p>Google</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="jpmorganchase_logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software Engineering Job Simulation</h3>
+                  <p>J.P Morgan</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Unknown.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Supervised Machine Learning: Regression and Classification</h3>
+                  <p>Standford and coursera</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="amazon_web_services_logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Architecture Job Simulation</h3>
+                  <p>Amazon</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="infosys_logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Young Industry Enthusiast</h3>
+                  <p>Infosys</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Non-Technical Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="_logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>National Finalist</h3>
+                  <p>Delhi University</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="w.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Winner, Unlocking Potential</h3>
+                  <p>wainsy by siraom pvt ltd.</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="mnit.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>National Finalist</h3>
+                  <p>Malviya National Institute of Technology</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="xlri.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>International Industry Relation Confrence</h3>
+                  <p>XLRI Jamshedpur</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="plp.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Campus Ambassador</h3>
+                  <p>Government of India-MyGov</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="microsoft.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Learn Student Ambassador</h3>
+                  <p>Microsoft</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="lo.jpeg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+        <p class="ection_text_p1">Browse my recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="b.jpeg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Government of Telangana Project</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/TAHIR0110/GOVT.-OF-TELANGANA-RESUME-PROJECT'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/TAHIR0110/GOVT.-OF-TELANGANA-RESUME-PROJECT'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="Unknown.jpeg"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Hack for Health</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='hhttps://github.com/TAHIR0110/-Hack-for-Health'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/TAHIR0110/-Hack-for-Healths'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="download.jpg"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Geeekathon 1.0</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Atharv714/geekathon1.0-project'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Atharv714/geekathon1.0-project'"
+                  >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="op.jpeg"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="syedtahirabbashasani@gmail.com">syedtahirabbashasani@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="th.jpeg"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/syed-tahir-abbas-hasani-60bb78287/">Syed Tahir Abbas Hasani</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Syed Tahir Abbas Hasani. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
